@@ -1,5 +1,15 @@
 # Roll A Ball Extra Stretch Goals
 
+## Setting Up Walls
+
+1.  Create empty walls using the cube game object. Reset it to origin
+2.  Create cube west wall and reset. Parent Walls
+3.  Scale west walls by (0.5, 2, 20.5). Use translate tool to place. It should be -10
+4.  Duplicate for east, north and south wall, rotate these walls.
+    Test! At this point if you have any questions at all, you should be shooting them my way.
+
+Now that as have our “game board” and barriers so we dont fall of our screen, let’s set up some targets for our player.
+
 ## Creating Collectables
 
 1.  Create a new game object **Sphere**
